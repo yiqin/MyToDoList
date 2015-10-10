@@ -15,4 +15,5 @@ class CurrentListViewController: UIViewController {
         
         view.backgroundColor = UIColor.whiteColor()
     }
+    
 }

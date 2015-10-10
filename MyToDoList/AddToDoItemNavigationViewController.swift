@@ -13,6 +13,8 @@ class AddToDoItemNavigationViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewControllers = [AddToDoItemViewController()]
+        view.backgroundColor = UIColor.whiteColor()
     }
     
 }

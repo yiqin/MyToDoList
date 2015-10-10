@@ -12,7 +12,9 @@ class AnalysisNavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        viewControllers = [AnalysisViewController()]
+        view.backgroundColor = UIColor.whiteColor()
     }
 
 }

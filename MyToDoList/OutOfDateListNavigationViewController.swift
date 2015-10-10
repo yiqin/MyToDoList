@@ -12,7 +12,9 @@ class OutOfDateListNavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        viewControllers = [OutOfDateListViewController()]
+        view.backgroundColor = UIColor.whiteColor()
     }
 
 }
