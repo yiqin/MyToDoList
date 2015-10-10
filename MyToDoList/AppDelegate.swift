@@ -16,7 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        setupViewControllers()
+        
         return true
+    }
+    
+    // MARK: - ViewControllers in TabBarController
+    
+    func setupViewControllers() {
+        
+        let mainTabBarViewController = MainTabBarViewController()
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = mainTabBarViewController
+        window!.makeKeyAndVisible()
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
