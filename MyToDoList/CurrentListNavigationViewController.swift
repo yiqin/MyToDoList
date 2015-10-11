@@ -14,7 +14,7 @@ class CurrentListNavigationViewController: UINavigationController {
         super.viewDidLoad()
         
         viewControllers = [CurrentListViewController()]
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor.whiteColor()        
     }
     
 }

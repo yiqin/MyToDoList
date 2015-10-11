@@ -15,6 +15,8 @@ class CurrentListViewController: UIViewController, UITableViewDataSource, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Current List"
+        
         setupTableView()
     }
     
