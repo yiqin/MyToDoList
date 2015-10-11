@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupNavigationBarUI() {
         // AnyObject
-        let dict: [String: AnyObject] =  [NSForegroundColorAttributeName: UIColor.greenColor() as AnyObject, NSFontAttributeName: UIFont(name: "OpenSans-Bold", size: 13.0) as! AnyObject]
+        let dict: [String: AnyObject] =  [NSForegroundColorAttributeName: UIColor.greenColor() as AnyObject, NSFontAttributeName: UIFont(customizedFont: .OpenSans_Bold, size: 13) as AnyObject]
         
         UINavigationBar.appearance().titleTextAttributes = dict
     }

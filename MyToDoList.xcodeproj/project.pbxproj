@@ -50,6 +50,7 @@
 		8DE17F801BC9E84A00994603 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE17F681BC9E84A00994603 /* OpenSans-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
 		8DE17F811BC9E84A00994603 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE17F691BC9E84A00994603 /* OpenSans-Semibold.ttf */; settings = {ASSET_TAGS = (); }; };
 		8DE17F821BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE17F6A1BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		8DE17F891BC9ECF400994603 /* UIFont+CustomizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		8DE17F681BC9E84A00994603 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		8DE17F691BC9E84A00994603 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		8DE17F6A1BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomizedFont.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				8DE17F001BC9CD8C00994603 /* AppDelegate.swift */,
 				8DE17F841BC9EC7900994603 /* DataManager */,
 				8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */,
+				8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */,
 				8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */,
 				8DE17F831BC9EC6F00994603 /* CurrentList */,
 				8DE17F461BC9DBE300994603 /* Item.swift */,
@@ -467,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE17F891BC9ECF400994603 /* UIFont+CustomizedFont.swift in Sources */,
 				8DE17F2F1BC9CE2B00994603 /* MainTabBarViewController.swift in Sources */,
 				8DE17F3D1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift in Sources */,
 				8DE17F331BC9CF9500994603 /* CurrentListViewController.swift in Sources */,
