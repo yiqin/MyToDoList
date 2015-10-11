@@ -10,18 +10,20 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
     
-    var titleLabel: UILabel
-    var detailLabel: UILabel
+    var item: ItemProtocol?
+    
+    var titleLabel = UILabel()
+    var detailLabel = UILabel()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         
-        titleLabel = UILabel()
-        
-        
-        detailLabel = UILabel()
-        
-        
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        titleLabel.frame = CGRectMake(10, 10, CGRectGetWidth(frame)-20, 36)
+        addSubview(titleLabel)
+        
+        detailLabel.frame = CGRectMake(10, CGRectGetMaxY(frame)+10, CGRectGetWidth(frame)-20, 36)
+        addSubview(detailLabel)
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -32,6 +34,15 @@ class ItemTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    // MARK: - Update the content of the table view cell
+    
+    func setContent(item: ItemProtocol) {
+        self.item = item
+        
+        titleLabel.text = item.title
+        detailLabel.text = item.detail
     }
     
     class func cellHeight() -> CGFloat {

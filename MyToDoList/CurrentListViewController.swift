@@ -29,6 +29,8 @@ class CurrentListViewController: UIViewController, UITableViewDataSource, UITabl
         view.addSubview(tableView)
     }
     
+    // MARK: - Table view
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print(CurrentListDataManager.sharedInstance.items.count)
         return CurrentListDataManager.sharedInstance.items.count
@@ -43,10 +45,12 @@ class CurrentListViewController: UIViewController, UITableViewDataSource, UITabl
         let cellIdentifier = "currentListCellIdentifier"
         
         var cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? ItemTableViewCell
-        
         if (cell == nil) {
             cell = ItemTableViewCell(style: .Default, reuseIdentifier: cellIdentifier)
-        }        
+        }
+        
+        let item = CurrentListDataManager.sharedInstance.items[indexPath.row]
+        cell?.setContent(item)
         
         return cell!
     }
