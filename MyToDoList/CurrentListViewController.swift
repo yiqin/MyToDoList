@@ -30,7 +30,8 @@ class CurrentListViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        print(CurrentListDataManager.sharedInstance.items.count)
+        return CurrentListDataManager.sharedInstance.items.count
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {

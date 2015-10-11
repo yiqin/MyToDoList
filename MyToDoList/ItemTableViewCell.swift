@@ -10,7 +10,17 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
     
+    var titleLabel: UILabel
+    var detailLabel: UILabel
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        
+        titleLabel = UILabel()
+        
+        
+        detailLabel = UILabel()
+        
+        
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
 

@@ -23,6 +23,9 @@
 		8DE17F3F1BC9D0F700994603 /* AnalysisNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F411BC9D11500994603 /* OutOfDateListNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F451BC9D70300994603 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F471BC9DBE300994603 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F461BC9DBE300994603 /* Item.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F491BC9DDE300994603 /* CurrentListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F481BC9DDE300994603 /* CurrentListDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F4B1BC9DE9200994603 /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F4A1BC9DE9200994603 /* ItemProtocol.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisNavigationViewController.swift; sourceTree = "<group>"; };
 		8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutOfDateListNavigationViewController.swift; sourceTree = "<group>"; };
 		8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		8DE17F461BC9DBE300994603 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8DE17F481BC9DDE300994603 /* CurrentListDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListDataManager.swift; sourceTree = "<group>"; };
+		8DE17F4A1BC9DE9200994603 /* ItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 				8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */,
 				8DE17F3A1BC9D0A900994603 /* CurrentListNavigationViewController.swift */,
 				8DE17F321BC9CF9500994603 /* CurrentListViewController.swift */,
+				8DE17F481BC9DDE300994603 /* CurrentListDataManager.swift */,
+				8DE17F461BC9DBE300994603 /* Item.swift */,
+				8DE17F4A1BC9DE9200994603 /* ItemProtocol.swift */,
 				8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */,
 				8DE17F3C1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift */,
 				8DE17F341BC9CFB100994603 /* AddToDoItemViewController.swift */,
@@ -301,13 +310,16 @@
 				8DE17F2F1BC9CE2B00994603 /* MainTabBarViewController.swift in Sources */,
 				8DE17F3D1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift in Sources */,
 				8DE17F331BC9CF9500994603 /* CurrentListViewController.swift in Sources */,
+				8DE17F491BC9DDE300994603 /* CurrentListDataManager.swift in Sources */,
 				8DE17F3B1BC9D0A900994603 /* CurrentListNavigationViewController.swift in Sources */,
+				8DE17F471BC9DBE300994603 /* Item.swift in Sources */,
 				8DE17F011BC9CD8C00994603 /* AppDelegate.swift in Sources */,
 				8DE17F351BC9CFB100994603 /* AddToDoItemViewController.swift in Sources */,
 				8DE17F391BC9D06900994603 /* OutOfDateListViewController.swift in Sources */,
 				8DE17F3F1BC9D0F700994603 /* AnalysisNavigationViewController.swift in Sources */,
 				8DE17F411BC9D11500994603 /* OutOfDateListNavigationViewController.swift in Sources */,
 				8DE17F451BC9D70300994603 /* ItemTableViewCell.swift in Sources */,
+				8DE17F4B1BC9DE9200994603 /* ItemProtocol.swift in Sources */,
 				8DE17F371BC9D04E00994603 /* AnalysisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
