@@ -17,9 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        
-        
         setupSingletonMethod()
+        setupNavigationBarUI()
         setupViewControllers()
         
         return true
@@ -29,6 +28,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupSingletonMethod() {
         CurrentListDataManager.sharedInstance.fakeData()
+    }
+    
+    func setupNavigationBarUI() {
+        // AnyObject
+        let dict: [String: AnyObject] =  [NSForegroundColorAttributeName: UIColor.greenColor() as AnyObject, NSFontAttributeName: UIFont(name: "OpenSans-Bold", size: 13.0) as! AnyObject]
+        
+        UINavigationBar.appearance().titleTextAttributes = dict
     }
     
     // MARK: - ViewControllers in TabBarController
