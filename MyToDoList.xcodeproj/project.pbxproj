@@ -51,6 +51,7 @@
 		8DE17F811BC9E84A00994603 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE17F691BC9E84A00994603 /* OpenSans-Semibold.ttf */; settings = {ASSET_TAGS = (); }; };
 		8DE17F821BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE17F6A1BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
 		8DE17F891BC9ECF400994603 /* UIFont+CustomizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F8B1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F8A1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		8DE17F691BC9E84A00994603 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		8DE17F6A1BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomizedFont.swift"; sourceTree = "<group>"; };
+		8DE17F8A1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AssetCatalogIdentifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +176,7 @@
 				8DE17F001BC9CD8C00994603 /* AppDelegate.swift */,
 				8DE17F841BC9EC7900994603 /* DataManager */,
 				8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */,
-				8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */,
+				8DE17F8C1BC9F0E300994603 /* Extensions */,
 				8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */,
 				8DE17F831BC9EC6F00994603 /* CurrentList */,
 				8DE17F461BC9DBE300994603 /* Item.swift */,
@@ -314,6 +316,15 @@
 				8DE17F381BC9D06900994603 /* OutOfDateListViewController.swift */,
 			);
 			name = OutOfDate;
+			sourceTree = "<group>";
+		};
+		8DE17F8C1BC9F0E300994603 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F881BC9ECF400994603 /* UIFont+CustomizedFont.swift */,
+				8DE17F8A1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +490,7 @@
 				8DE17F471BC9DBE300994603 /* Item.swift in Sources */,
 				8DE17F011BC9CD8C00994603 /* AppDelegate.swift in Sources */,
 				8DE17F351BC9CFB100994603 /* AddToDoItemViewController.swift in Sources */,
+				8DE17F8B1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift in Sources */,
 				8DE17F391BC9D06900994603 /* OutOfDateListViewController.swift in Sources */,
 				8DE17F3F1BC9D0F700994603 /* AnalysisNavigationViewController.swift in Sources */,
 				8DE17F411BC9D11500994603 /* OutOfDateListNavigationViewController.swift in Sources */,

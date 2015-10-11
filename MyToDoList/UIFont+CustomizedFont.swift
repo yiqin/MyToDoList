@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-/// Support customized font
+/// Customized font
 ///
 /// Strongly typed
 /// Mapping between strings and a new type
