@@ -170,19 +170,15 @@
 			isa = PBXGroup;
 			children = (
 				8DE17F001BC9CD8C00994603 /* AppDelegate.swift */,
+				8DE17F841BC9EC7900994603 /* DataManager */,
 				8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */,
-				8DE17F3A1BC9D0A900994603 /* CurrentListNavigationViewController.swift */,
-				8DE17F321BC9CF9500994603 /* CurrentListViewController.swift */,
-				8DE17F481BC9DDE300994603 /* CurrentListDataManager.swift */,
+				8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */,
+				8DE17F831BC9EC6F00994603 /* CurrentList */,
 				8DE17F461BC9DBE300994603 /* Item.swift */,
 				8DE17F4A1BC9DE9200994603 /* ItemProtocol.swift */,
-				8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */,
-				8DE17F3C1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift */,
-				8DE17F341BC9CFB100994603 /* AddToDoItemViewController.swift */,
-				8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */,
-				8DE17F361BC9D04E00994603 /* AnalysisViewController.swift */,
-				8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */,
-				8DE17F381BC9D06900994603 /* OutOfDateListViewController.swift */,
+				8DE17F851BC9EC8B00994603 /* AddToDoItem */,
+				8DE17F861BC9EC9300994603 /* Analysis */,
+				8DE17F871BC9ECA200994603 /* OutOfDate */,
 				8DE17F4C1BC9E80000994603 /* Supporting Files */,
 			);
 			path = MyToDoList;
@@ -271,6 +267,50 @@
 				8DE17F6A1BC9E84A00994603 /* OpenSans-SemiboldItalic.ttf */,
 			);
 			path = Open_Sans;
+			sourceTree = "<group>";
+		};
+		8DE17F831BC9EC6F00994603 /* CurrentList */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F3A1BC9D0A900994603 /* CurrentListNavigationViewController.swift */,
+				8DE17F321BC9CF9500994603 /* CurrentListViewController.swift */,
+			);
+			name = CurrentList;
+			sourceTree = "<group>";
+		};
+		8DE17F841BC9EC7900994603 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F481BC9DDE300994603 /* CurrentListDataManager.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		8DE17F851BC9EC8B00994603 /* AddToDoItem */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F3C1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift */,
+				8DE17F341BC9CFB100994603 /* AddToDoItemViewController.swift */,
+			);
+			name = AddToDoItem;
+			sourceTree = "<group>";
+		};
+		8DE17F861BC9EC9300994603 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */,
+				8DE17F361BC9D04E00994603 /* AnalysisViewController.swift */,
+			);
+			name = Analysis;
+			sourceTree = "<group>";
+		};
+		8DE17F871BC9ECA200994603 /* OutOfDate */ = {
+			isa = PBXGroup;
+			children = (
+				8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */,
+				8DE17F381BC9D06900994603 /* OutOfDateListViewController.swift */,
+			);
+			name = OutOfDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
