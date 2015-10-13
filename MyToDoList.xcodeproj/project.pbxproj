@@ -16,11 +16,11 @@
 		8DE17F2F1BC9CE2B00994603 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F331BC9CF9500994603 /* CurrentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F321BC9CF9500994603 /* CurrentListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F351BC9CFB100994603 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F341BC9CFB100994603 /* AddToDoItemViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8DE17F371BC9D04E00994603 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F361BC9D04E00994603 /* AnalysisViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F371BC9D04E00994603 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F361BC9D04E00994603 /* AnalyticsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F391BC9D06900994603 /* OutOfDateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F381BC9D06900994603 /* OutOfDateListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F3B1BC9D0A900994603 /* CurrentListNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F3A1BC9D0A900994603 /* CurrentListNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F3D1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F3C1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8DE17F3F1BC9D0F700994603 /* AnalysisNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8DE17F3F1BC9D0F700994603 /* AnalyticsNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F3E1BC9D0F700994603 /* AnalyticsNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F411BC9D11500994603 /* OutOfDateListNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F451BC9D70300994603 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8DE17F471BC9DBE300994603 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE17F461BC9DBE300994603 /* Item.swift */; settings = {ASSET_TAGS = (); }; };
@@ -87,11 +87,11 @@
 		8DE17F2E1BC9CE2B00994603 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		8DE17F321BC9CF9500994603 /* CurrentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListViewController.swift; sourceTree = "<group>"; };
 		8DE17F341BC9CFB100994603 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
-		8DE17F361BC9D04E00994603 /* AnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		8DE17F361BC9D04E00994603 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
 		8DE17F381BC9D06900994603 /* OutOfDateListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutOfDateListViewController.swift; sourceTree = "<group>"; };
 		8DE17F3A1BC9D0A900994603 /* CurrentListNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentListNavigationViewController.swift; sourceTree = "<group>"; };
 		8DE17F3C1BC9D0DE00994603 /* AddToDoItemNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemNavigationViewController.swift; sourceTree = "<group>"; };
-		8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisNavigationViewController.swift; sourceTree = "<group>"; };
+		8DE17F3E1BC9D0F700994603 /* AnalyticsNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsNavigationViewController.swift; sourceTree = "<group>"; };
 		8DE17F401BC9D11500994603 /* OutOfDateListNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutOfDateListNavigationViewController.swift; sourceTree = "<group>"; };
 		8DE17F441BC9D70300994603 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		8DE17F461BC9DBE300994603 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				8DE17F461BC9DBE300994603 /* Item.swift */,
 				8DE17F4A1BC9DE9200994603 /* ItemProtocol.swift */,
 				8DE17F851BC9EC8B00994603 /* AddToDoItem */,
-				8DE17F861BC9EC9300994603 /* Analysis */,
+				8DE17F861BC9EC9300994603 /* Analytics */,
 				8DE17F871BC9ECA200994603 /* OutOfDate */,
 				8DE17F4C1BC9E80000994603 /* Supporting Files */,
 			);
@@ -300,13 +300,13 @@
 			name = AddToDoItem;
 			sourceTree = "<group>";
 		};
-		8DE17F861BC9EC9300994603 /* Analysis */ = {
+		8DE17F861BC9EC9300994603 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				8DE17F3E1BC9D0F700994603 /* AnalysisNavigationViewController.swift */,
-				8DE17F361BC9D04E00994603 /* AnalysisViewController.swift */,
+				8DE17F3E1BC9D0F700994603 /* AnalyticsNavigationViewController.swift */,
+				8DE17F361BC9D04E00994603 /* AnalyticsViewController.swift */,
 			);
-			name = Analysis;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		8DE17F871BC9ECA200994603 /* OutOfDate */ = {
@@ -492,11 +492,11 @@
 				8DE17F351BC9CFB100994603 /* AddToDoItemViewController.swift in Sources */,
 				8DE17F8B1BC9F0D700994603 /* UIImage+AssetCatalogIdentifier.swift in Sources */,
 				8DE17F391BC9D06900994603 /* OutOfDateListViewController.swift in Sources */,
-				8DE17F3F1BC9D0F700994603 /* AnalysisNavigationViewController.swift in Sources */,
+				8DE17F3F1BC9D0F700994603 /* AnalyticsNavigationViewController.swift in Sources */,
 				8DE17F411BC9D11500994603 /* OutOfDateListNavigationViewController.swift in Sources */,
 				8DE17F451BC9D70300994603 /* ItemTableViewCell.swift in Sources */,
 				8DE17F4B1BC9DE9200994603 /* ItemProtocol.swift in Sources */,
-				8DE17F371BC9D04E00994603 /* AnalysisViewController.swift in Sources */,
+				8DE17F371BC9D04E00994603 /* AnalyticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +721,7 @@
 				8DE17F271BC9CD8D00994603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE17F281BC9CD8D00994603 /* Build configuration list for PBXNativeTarget "MyToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +730,7 @@
 				8DE17F2A1BC9CD8D00994603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE17F2B1BC9CD8D00994603 /* Build configuration list for PBXNativeTarget "MyToDoListUITests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +739,7 @@
 				8DE17F2D1BC9CD8D00994603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

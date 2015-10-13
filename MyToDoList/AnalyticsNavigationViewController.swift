@@ -8,12 +8,12 @@
 
 import UIKit
 
-class AnalysisNavigationViewController: UINavigationController {
+class AnalyticsNavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [AnalysisViewController()]
+        viewControllers = [AnalyticsViewController()]
         view.backgroundColor = UIColor.whiteColor()
     }
 

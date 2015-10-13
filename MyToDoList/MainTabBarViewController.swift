@@ -27,9 +27,9 @@ class MainTabBarViewController: UITabBarController {
         let outOfDateListNVC = OutOfDateListNavigationViewController()
         outOfDateListNVC.title = "Out of Date"
         
-        let analysisNVC = AnalysisNavigationViewController()
-        analysisNVC.title = "Analysis"
+        let analyticsNVC = AnalyticsNavigationViewController()
+        analyticsNVC.title = "Analytics"
         
-        viewControllers = [curentListNVC, addToDoItemNVC, outOfDateListNVC, analysisNVC]
+        viewControllers = [curentListNVC, addToDoItemNVC, outOfDateListNVC, analyticsNVC]
     }
 }
